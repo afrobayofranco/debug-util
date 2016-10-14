@@ -1,4 +1,3 @@
-# Debugging Tool
 This debugging tool simply outputs data to logs file, so that you would not have to use console.logs.
 
 # Installation
@@ -7,3 +6,5 @@ This debugging tool simply outputs data to logs file, so that you would not have
 
 # Usage
 This tool depends on invironmental variable `DEBUG`. If it equals to `true`, it would run. If `false`, then will not. To set this variable run your server like this: `DEBUG=true node /path/to/index/file`.
+
+Make sure to create directory and file `logs/debug.log` outside your source folder. 
