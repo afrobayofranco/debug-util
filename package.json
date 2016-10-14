@@ -1,23 +1,18 @@
 {
   "name": "debug-util-sd",
   "version": "1.0.0",
-  "description": "A simple debugging utility",
-  "main": "index.js",
+  "description": "",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sdvinov/debug-util.git"
-  },
   "keywords": [
-    "util",
     "debug"
   ],
   "author": "Sergej Dvinov",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sdvinov/debug-util/issues"
+  "dependencies": {
   },
-  "homepage": "https://github.com/sdvinov/debug-util#readme"
+  "devDependencies": {
+  }
 }
