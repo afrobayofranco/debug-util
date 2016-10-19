@@ -21,6 +21,21 @@ DEBUG=true node src/server.js
 
 Parameter to use:
 
+To get `Console.log();`
 ```
-log.debug(`Here Goes Your Message`);
+log.debug(`Here Goes Your Message`,`log`);
 ```
+NOTE: This will out put a text with GREEN color in the console
+
+
+To get `Console.error();`
+```
+log.debug(`Here Goes Your Message`,`error`);
+```
+NOTE: This will out put a text with RED color in the console
+
+To get `Console.warn();`
+```
+log.debug(`Here Goes Your Message`,`warn`);
+```
+NOTE: This will out put a text with YELLOW color in the console
