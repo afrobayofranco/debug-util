@@ -17,6 +17,11 @@ This tool depends on invironmental variable `DEBUG`. If it equals to `true`, it 
 DEBUG=true node src/server.js
 ```
 
+Using the Debug Tool. Use this code in your page to export the module. 
+```
+const log = require('debug-util-sd');
+```
+
 ## Debugging
 
 Parameter to use:
