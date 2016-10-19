@@ -9,12 +9,20 @@ const colors = require('colors');
 const date = new Date();
 
 
-exports.debug = (d) => {
+exports.debug = (d,b) => {
 
   // Run this code only if env var DEBUG is set to true
   if (process.env.DEBUG === 'true') {
+    // console log all the error
+    if (b === 'error') {
     // Console Logging date and message
-      console.log(colors.green(date),colors.red(d));
+      console.log(colors.black(date),colors.red(d));
+    } else if (b === 'warn') {
+      // console log all the warnings
+      console.log(colors.black(date),colors.yellow(d));
+      } else {
+      // console log all the successes
+      console.log(colors.black(date),colors.green(d));
     }
-
-}
+  }
+};
