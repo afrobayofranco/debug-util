@@ -21,36 +21,37 @@ DEBUG=true node src/server.js
 
 ## Version Bumper
 
-Add this to top of the page that used.
+Add this to top of the page that use versioning.
 ```
 const updateVersion = require('../src/version_updater/vupdate.js');
 
 ```
 
-Using the Debug Tool. Use this code in your page to export the module.
-```
-const log = require('debug-util-sd');
-```
+#### Parameters to use
 
-Parameters to use
-
-To upgrade Major Version use;
+To upgrade `Major` Version use;
 ```
 updateVersion.up('Your Package.json Version','major');
 ```
 
-To upgrade Minor Version use;
+To upgrade `Minor` Version use;
 ```
 updateVersion.up('Your Package.json Version','minor');
 ```
-To upgrade Patch Version use;
+To upgrade `Patch` Version use;
 ```
 updateVersion.up('Your Package.json Version','patch');
 ```
 
 ## Debugging
 
-Parameter to use:
+Using the Debug Tool. Use this code in your page to export the module.
+```
+const log = require('debug-util-sd');
+```
+
+
+#### Parameter to use:
 
 To get `Console.log();`
 ```
