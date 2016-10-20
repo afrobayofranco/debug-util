@@ -17,10 +17,35 @@ This tool depends on invironmental variable `DEBUG`. If it equals to `true`, it 
 DEBUG=true node src/server.js
 ```
 
-Using the Debug Tool. Use this code in your page to export the module. 
+Using the Debug Tool. Use this code in your page to export the module.
 ```
 const log = require('debug-util-sd');
 ```
+
+Parameters to use
+
+To upgrade Major Version use;
+```
+updateVersion.up('Your Package.json Version','major');
+```
+
+To upgrade Minor Version use;
+```
+updateVersion.up('Your Package.json Version','minor');
+```
+To upgrade Patch Version use;
+```
+updateVersion.up('Your Package.json Version','patch');
+```
+
+## Version Bumper
+
+Add this to top of the page that used.
+```
+const updateVersion = require('../src/version_updater/vupdate.js');
+
+```
+
 
 ## Debugging
 
