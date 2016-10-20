@@ -17,6 +17,10 @@ This tool depends on invironmental variable `DEBUG`. If it equals to `true`, it 
 DEBUG=true node src/server.js
 ```
 
+Using the Debug Tool. Use this code in your page to export the module.
+```
+const log = require('debug-util-sd');
+```
 
 
 ## Version Bumper
@@ -44,11 +48,6 @@ updateVersion.up('Your Package.json Version','patch');
 ```
 
 ## Debugging
-
-Using the Debug Tool. Use this code in your page to export the module.
-```
-const log = require('debug-util-sd');
-```
 
 
 #### Parameter to use:
