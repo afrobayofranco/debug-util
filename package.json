@@ -12,6 +12,7 @@
   "author": "Sergej Dvinov",
   "license": "ISC",
   "dependencies": {
+    "colors": "^1.1.2"
   },
   "devDependencies": {
   }
