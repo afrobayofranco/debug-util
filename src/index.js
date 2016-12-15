@@ -29,10 +29,9 @@ exports.debug = (d,b) => {
 
 
 
+const packageVersion = require('../package.json');
 
-const packageVersion = require('../../package.json');
-
-
+/*
 // Current Version
 const versionNow = packageVersion.version.split('.');
 
@@ -64,3 +63,4 @@ exports.up = (msg, updater) => {
 };
 const vupdate = require('./version_updater/vupdate');
 vupdate.up('some msg', 'patch');
+*/
